@@ -28,3 +28,5 @@ Employees can use this mobile app to record details of their spending and subseq
 - Run the application in your Android Studio
 
 # Preview
+![](images/Login.png)
+![](images/Login.png)
