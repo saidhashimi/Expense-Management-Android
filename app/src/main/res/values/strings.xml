@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Expense Management</string>
+
+    <string-array name="tripduration">
+        <item>Select Here</item>
+        <item>1 Day</item>
+        <item>2 Day</item>
+        <item>3 Day</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <string-array name="travel">
+        <item>Select Here</item>
+        <item>On Airplane</item>
+        <item>On Car</item>
+        <item>On Bike</item>
+    </string-array>
+
+    <string-array name="expenses">
+        <item>Select Here</item>
+        <item>Transportation</item>
+        <item>Food</item>
+        <item>Drink</item>
+        <item>Restaurants</item>
+        <item>Entertainment</item>
+        <item>Accommodation</item>
+        <item>Snacks</item>
+        <item>Miscellaneous</item>
+        <item>Coffee</item>
+        <item>Ice</item>
+        <item>Showers</item>
+        <item>Water</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="trips">
+        <item>Select Here</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
+

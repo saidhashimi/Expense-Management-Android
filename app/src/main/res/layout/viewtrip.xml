@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewtrip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="407dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundedcorner"
+        android:fontFamily="@font/cormorant_sc_light"
+        android:paddingTop="13dp"
+        android:text="Trip Details"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tripName"
+        android:layout_width="344dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="Trip Name"
+        android:padding="20sp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/tripDestination"
+        android:layout_width="344dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="Trip Destination"
+        android:padding="20sp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tripName" />
+
+    <TextView
+        android:id="@+id/tripDuration"
+        android:layout_width="344dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="Trip Duration"
+        android:padding="20sp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tripDescription" />
+
+    <TextView
+        android:id="@+id/tripMode"
+        android:layout_width="344dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="Mode Of Travel"
+        android:padding="20sp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tripDuration" />
+
+    <TextView
+        android:id="@+id/tripDate"
+        android:layout_width="168dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="Date"
+        android:padding="20sp"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tripDestination" />
+
+    <TextView
+        android:id="@+id/tripRisk"
+        android:layout_width="169dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="Risk Assesment"
+        android:padding="20sp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toEndOf="@+id/tripDate"
+        app:layout_constraintTop_toBottomOf="@+id/tripDestination" />
+
+    <EditText
+        android:id="@+id/tripDescription"
+        android:layout_width="344dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/roundedcorner"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Trip Description"
+        android:inputType="textMultiLine"
+        android:padding="20sp"
+        android:paddingLeft="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tripRisk" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/cormorant_sc_light"
+        android:text="Details"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
